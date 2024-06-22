@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH = /home/ubuntu/.nvm/versions/node/v20.15.0/bin/npm" // Ensure this points to your Node.js and npm binaries
+        PATH = /home/ubuntu/.nvm/versions/node/v20.15.0/bin/npm" 
     }
 
     stages {
