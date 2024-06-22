@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    environment {
-        PATH = "/home/ubuntu/.nvm/versions/node/v20.15.0/bin/npm" 
-    }
+    // environment {
+    //     PATH = "/home/ubuntu/.nvm/versions/node/v20.15.0/bin/npm" 
+    // }
 
     stages {
         stage('Checkout code from github to jenkins workspace') {
