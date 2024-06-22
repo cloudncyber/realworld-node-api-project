@@ -11,7 +11,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Install project dependencies
-                //sh 'bash node.sh'
+                sh 'bash node.sh'
                 sh 'npm install express'
             }
         }
