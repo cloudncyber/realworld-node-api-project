@@ -1,2 +1,2 @@
-apt install node -y
-apt install npm -y
+sudo apt install node -y
+sudo apt install npm -y
